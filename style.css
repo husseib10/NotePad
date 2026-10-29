@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  background-color: black;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#notes {
+  background-color: rgb(45, 45, 45);
+  color: rgb(193, 193, 193);
+  resize: none;
+  width: 100%;
+  outline: none;
+  font-size: 24px;
+  padding: 20px;
+  font-family: cursive;
+  border: none;
+  box-sizing: border-boxs;
+}
+
+#notes::-webkit-scrollbar {
+  background-color: rgb(45, 45, 45);
+  width: 7px;
+}
+
+#notes::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background-color: rgb(95, 95, 95);
+  border-radius: 10px;
+}
