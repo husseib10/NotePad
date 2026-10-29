@@ -13,7 +13,7 @@ body {
   outline: none;
   font-size: 24px;
   padding: 20px;
-  font-family: cursive;
+  font-family: cursive, sans-serif;
   border: none;
   box-sizing: border-boxs;
 }
